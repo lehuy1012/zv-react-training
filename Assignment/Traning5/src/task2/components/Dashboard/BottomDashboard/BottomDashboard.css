@@ -1,0 +1,15 @@
+.BottomDashboard--container
+{
+    height: 80px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: left;
+    
+}
+
+.text--bottom
+{
+    line-height: 80px;
+    padding-left: 50px;
+    margin: 0px 0px;
+}

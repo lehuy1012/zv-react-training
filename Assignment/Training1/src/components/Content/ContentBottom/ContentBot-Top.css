@@ -1,0 +1,17 @@
+.content--bottom
+{
+    display: flex;
+}
+.content--bottom--live
+{
+
+}
+
+@media screen and (max-width: 1128px) {
+
+    .Live4{
+        display: none;
+    }   
+
+}
+    

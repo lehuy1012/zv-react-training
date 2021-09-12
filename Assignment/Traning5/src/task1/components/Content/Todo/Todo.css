@@ -1,0 +1,45 @@
+.Todo--container
+{
+    height: 70px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 70px;
+    
+}
+
+.Todo--btn-handle
+{
+
+}
+
+.Todo--todo
+{
+    margin: 0px 0px;
+    padding-left: 100px;
+    width : 60%;
+    font-size: 25px;
+}
+
+.Todo--date
+{
+    margin: 0px 0px;
+    width : 15%;
+}
+.Todo--btn-handle
+{
+    padding-right: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width : 20%;
+}
+
+.btn
+{
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    padding-left:  10px;
+}

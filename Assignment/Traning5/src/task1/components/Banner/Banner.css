@@ -1,0 +1,42 @@
+.container--banner
+{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 50px; */
+}
+
+.banner--left
+{
+    color: white;
+    line-height: 100px;
+    font-size: 25px;
+}
+.banner--center
+{
+    line-height: 100px;
+    padding-left: 150px;
+    /* width: 250px; */
+}
+
+
+.banner--right
+{
+    line-height: 100px;
+    padding-left: 150px;
+
+}
+
+.type--todo
+{
+    width: 400px;
+    height: 40px;
+    font-size: 18px;
+}
+.btn--add--todo
+{
+    width: 100px;
+    height: 40px;
+}

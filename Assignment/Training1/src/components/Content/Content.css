@@ -1,0 +1,60 @@
+.Content--container
+{
+    width: 100%;
+}
+
+.Content--Bottom
+{
+    width: 100%;
+}
+.text-live
+{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.middle-content
+{
+    border-radius: 10px;
+    background-image: url("../../assets/images/MiddleContent.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    padding-left: 12px;
+}
+
+.middle-content--info
+{
+    padding-left: 40px;
+    align-items: flex-start;
+    justify-content: center;
+    width: 360px;
+    height: 100%;
+    padding: 80px 100px;
+    color: #fff;
+}
+
+.middle-content--info--top
+{
+    font-size: 50px;
+}
+
+.middle-content--info--bot
+{
+    font-size: 20px;
+    text-align: left;
+}
+
+.middle-content--info--btn
+{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.text-ContentTop
+{
+    padding-top: 50px;
+}

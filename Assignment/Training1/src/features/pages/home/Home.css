@@ -1,0 +1,50 @@
+.container
+{
+    background-image: url("../../../assets/images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: 0px -150px;
+    background-size: 100% 900px;
+    height: 800px;
+}
+
+.content
+{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.text-contentTop
+{
+    font-size: 30px;    
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 1128px) {
+    .container
+    {
+        background-size: 100% 700px;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .navbar--logo
+    {
+        display: none;
+    }
+
+        
+    .navbar--about
+    {
+        
+        display: none;
+        
+    }
+        
+    .navbar--selector
+    {
+        
+        display: none;
+
+    }
+}

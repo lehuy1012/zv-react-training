@@ -1,0 +1,30 @@
+.container--navigationBar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.navigation--left
+{
+    width: 200px;
+}
+
+.navigation--center
+{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.navigation--right
+{
+    width: 200px;
+    
+    height: 50px;
+}
+
+.navigation--right--user
+{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+}

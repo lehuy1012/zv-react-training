@@ -1,0 +1,14 @@
+.text-top
+{
+    display: flex;
+    
+}
+
+.text-top-item
+{
+    padding-left: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}

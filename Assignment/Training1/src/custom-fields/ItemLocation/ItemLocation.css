@@ -1,0 +1,34 @@
+.ItemLocation
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+}
+
+.ItemLocation__img
+{
+    width: 70px;
+    height: 60px;
+    border-radius: 10px;
+}
+.itemLcation--info
+{ 
+    width: 70%;
+}
+
+.info--city
+{
+    margin: 0;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.info--time
+{
+   padding-top: 5px;
+    font-size: 14px;
+    margin: 0;
+    padding-left: 20px;
+}

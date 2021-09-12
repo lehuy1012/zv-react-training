@@ -1,0 +1,51 @@
+
+.banner--container
+{
+    
+    height: 750px;
+    /* margin-top: -100px; */
+    
+}
+
+.dropdown
+{
+    display: flex;
+    justify-content: center;
+}
+
+.text-align
+{
+    padding-top: 250px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn
+{
+    text-align: center;
+    width: 200px;
+    height: 70px;
+    border-radius: 30px;
+    border: 0px solid;
+    margin-left: 50%;
+    transform: translate(-50%);
+    background-color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    color: #a848b2
+}
+
+
+
+@media screen and (max-width: 1128px) {
+      
+    .text-align
+    {
+        padding-top: 150px;
+    }
+    .banner--container
+    { 
+        height: 500px;
+    }
+
+}

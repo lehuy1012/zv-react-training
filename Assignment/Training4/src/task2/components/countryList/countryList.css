@@ -1,0 +1,10 @@
+.container--countrys
+{
+    display: flex;
+    justify-content: center;
+}
+
+.country
+{
+    color: black;
+}
