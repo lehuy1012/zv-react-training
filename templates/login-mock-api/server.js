@@ -19,11 +19,10 @@ const authMiddleware = require('./authMiddleware');
 
 const users = [{
   fullName: 'John Doe',
-  email: 'john@doe.com',
-  password: 'zigvy123',
+  email: '1',
+  password: '1',
   id: 'fb3111f1-ea6e-11e9-ba42-2368758065ba',
   role: 'Admin',
-
 }, {
   fullName: 'John Smith',
   email: 'john@smith.com',
@@ -38,6 +37,7 @@ app.use(cors());
 
 router.post('/login', async function(req, res) {
   const { email, password } = req.body;
+  console.log('login user : ', email, ' : ', password);
   const user = users.find((u) => u.email === email && u.password === password);
 
   if (!user) {
@@ -52,7 +52,6 @@ router.post('/login', async function(req, res) {
     role: user.role,
     id: user.id,
   }
-
 
   try {
     const token = await jwt.signToken(payload);

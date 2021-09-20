@@ -1,0 +1,13 @@
+.container--item__task
+{
+    display: flex;
+    width: 600px;
+    background-color: red;
+    justify-content: space-between; 
+}
+
+h4
+{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}

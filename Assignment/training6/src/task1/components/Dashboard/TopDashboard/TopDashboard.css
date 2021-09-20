@@ -1,0 +1,23 @@
+.TopDashboard--container
+{
+    height: 80px;
+    /* background-color: black; */
+    border: solid 1px black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.btn--info--user
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.TopDashboard--btn--container
+{
+    width: 150px;
+    /* background-color: black; */
+}

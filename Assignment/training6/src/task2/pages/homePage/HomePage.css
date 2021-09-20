@@ -1,0 +1,29 @@
+.container--task
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container--input--task
+{   
+    
+    width: 700px;
+    height: 50vh;
+    flex-direction: column;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    
+}
+
+.home--input__Task
+{
+    padding-top: 50px;
+}
+
+.home--list__Task
+{
+    padding-top: 50px;
+}
